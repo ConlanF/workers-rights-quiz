@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+  margin: 2em;
+  line-height: 1.6;
+}
+
+fieldset {
+  margin-bottom: 1.5em;
+  padding: 1em;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 0.6em 1em;
+  font-size: 1em;
+  cursor: pointer;
+}

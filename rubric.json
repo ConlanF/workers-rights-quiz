@@ -1,0 +1,316 @@
+[
+  {
+    "section": "Democratic Workplace",
+    "topics": [
+      {
+        "title": "Right to Organize",
+        "options": [
+          {
+            "label": "Staff is unionized with an active collective bargaining agreement.",
+            "score": 3
+          },
+          {
+            "label": "Staff is not currently unionized or does not have a current bargaining agreement, but management supports voluntary recognition of staff unions.",
+            "score": 2
+          },
+          {
+            "label": "Management does not support voluntary recognition, but would bargain in good faith with a union that was formed via NLRB election.",
+            "score": 1
+          },
+          {
+            "label": "Company is not supportive of staff unionization and/or has engaged in anti-union activity.",
+            "score": 0
+          }
+        ]
+      },
+      {
+        "title": "Democratic Decision Making",
+        "options": [
+          {
+            "label": "Company is more than 50% worker-owned and run or unionized with an active collective bargaining agreement.",
+            "score": 3
+          },
+          {
+            "label": "Workers have adequate opportunities to give input on important decisions, and decisions are made or changed based on that input.",
+            "score": 2
+          },
+          {
+            "label": "Workers are given the opportunity to give input on workplace decisions, but that input is not always taken into account.",
+            "score": 1
+          },
+          {
+            "label": "Workers have no opportunity to give imput on workplace decisions. All important decisions are made unilaterally by management.",
+            "score": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Fair Compensation",
+    "topics": [
+      {
+        "title": "Fair Wages",
+        "options": [
+          {
+            "label": "Family-supporting wage ($36.32/hr.)",
+            "score": 3
+          },
+          {
+            "label": "Living Wage ($18.64)",
+            "score": 2
+          },
+          {
+            "label": "At least $15/hr.",
+            "score": 1
+          },
+          {
+            "label": "Less than $15/hr.",
+            "score": 0
+          }
+        ]
+      },
+      {
+        "title": "Adequate Benefits",
+        "options": [
+          {
+            "label": "Company provides comprehensive healthcare benefits, paid time off, and retirement or pension.",
+            "score": 3
+          },
+          {
+            "label": "Company provides healthcare and other benefits.",
+            "score": 2
+          },
+          {
+            "label": "Company provides PTO (paid time off) only.",
+            "score": 1
+          },
+          {
+            "label": "Company provides no benefits.",
+            "score": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Safety",
+    "topics": [
+      {
+        "title": "Freedom from Discrimination",
+        "options": [
+          {
+            "label": "Company has a record of a workplace that supports a diversity of workers without discrimination.",
+            "score": 3
+          },
+          {
+            "label": "Company is improving its workplace diversity and freedom from discrimination.",
+            "score": 2
+          },
+          {
+            "label": "Company is aware of workplace discrimination and is willing to work to improve the situation.",
+            "score": 1
+          },
+          {
+            "label": "Company is known for workplace discrimination.",
+            "score": 0
+          }
+        ]
+      },
+      {
+        "title": "Freedom from Sexual Violence and Harassment",
+        "options": [
+          {
+            "label": "Company has a record of a \nworkplace free from sexual \nviolence and harassment. \nWorkers are not retaliated \nagainst for reporting sexual \nassault or harassment that they \nexperienced or witnessed.",
+            "score": 3
+          },
+          {
+            "label": "Company has improved its \nresponse to sexual violence and \nharassment and going forward will \nnot retaliate against employees \nwho report such harassment.",
+            "score": 2
+          },
+          {
+            "label": "Company has been made aware of \nissues with sexual violence and \nharassment and is willing to reform \nits approach to the problem.",
+            "score": 1
+          },
+          {
+            "label": "Company is known to ignore or \nminimize sexual violence and \nharassment. Workers who report \nsuch problems have been punished.",
+            "score": 0
+          }
+        ]
+      },
+      {
+        "title": "Sick & Safe Leave",
+        "options": [
+          {
+            "label": "Company provides ample paid safe and sick leave to employees who need time to care of themselves or a family member.",
+            "score": 3
+          },
+          {
+            "label": "Company provides paid sick leave to employees and encourages employees to use it when needed.",
+            "score": 2
+          },
+          {
+            "label": "Company provides unpaid sick leave only.",
+            "score": 1
+          },
+          {
+            "label": "Company provides little or no sick leave or employs measures that make using sick leave impossible or causes employees to fear for their job security.",
+            "score": 0
+          }
+        ]
+      },
+      {
+        "title": "Safe & Healthy Workplace",
+        "options": [
+          {
+            "label": "Workplace is sanitary with no worker safety concerns; zero OSHA violations; ample safety/sanitary gear for every employee",
+            "score": 3
+          },
+          {
+            "label": "ample safety gear for every employee; zero OSHA violations",
+            "score": 2
+          },
+          {
+            "label": "ample safety gear for every employee",
+            "score": 1
+          },
+          {
+            "label": "not sanitary or safe or has received multiple OSHA violations",
+            "score": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Fair Treatment",
+    "topics": [
+      {
+        "title": "Adequate Job Training",
+        "options": [
+          {
+            "label": "Workers have been provided with \nadequate and documented job \ntraining in a language and/or \nmethod the worker can understand",
+            "score": 3
+          },
+          {
+            "label": "Workers have had minimal job \ntraining with some accomodation \nto language and methods that the \nworker can understand.",
+            "score": 2
+          },
+          {
+            "label": "Workers have had minimal job training \nwith no accomodations.",
+            "score": 1
+          },
+          {
+            "label": "No job training",
+            "score": 0
+          }
+        ]
+      },
+      {
+        "title": "Access to Documentation",
+        "options": [
+          {
+            "label": "Workers have access to personal documentation at all times.",
+            "score": 3
+          },
+          {
+            "label": "Company has a known and timely procedure for the temporary use of worker documentation for administrative purposes.",
+            "score": 2
+          },
+          {
+            "label": "Company has a history of storing worker personal documentation for excessive amounts of time.",
+            "score": 1
+          },
+          {
+            "label": "Company has control of worker personal documentation; workers have difficulty accessing their personal documentation.",
+            "score": 0
+          }
+        ]
+      },
+      {
+        "title": "Know Your Rights",
+        "options": [
+          {
+            "label": "Company clearly communicates legal rights held by employees related to safety, schedules, time off, etc. -- including the right to unionize. Worker rights are communicated upon hiring and on a regular basis, as well as posted at the worksite or in an employee handbook. Communication is made in a language and/or method the worker can understand.",
+            "score": 3
+          },
+          {
+            "label": "Company posts information related to workers' rights in the workplace, as well as taking additional steps to inform employees, including any of the following: informational materials in new hire documents, regular briefings to staff about their rights, summary of rights posted in company handbook or online",
+            "score": 2
+          },
+          {
+            "label": "Company communicates the bare minumum required by law.",
+            "score": 1
+          },
+          {
+            "label": "Company does not post rights in accordance with the law and/or is known to actively misinform employees about their legal rights.",
+            "score": 0
+          }
+        ]
+      },
+      {
+        "title": "Fair Notice of Termination",
+        "options": [
+          {
+            "label": "Workers know the timetable of fair notice of termination; company adheres to this timetable.",
+            "score": 3
+          },
+          {
+            "label": "Company is wlling to reform its termination procedures and timetable to create fairness for workers.",
+            "score": 2
+          },
+          {
+            "label": "Company has been made aware of problems relating to their history of unfair notice of termination.",
+            "score": 1
+          },
+          {
+            "label": "No fair notice of termination.",
+            "score": 0
+          }
+        ]
+      },
+      {
+        "title": "Paid Family Leave",
+        "options": [
+          {
+            "label": "Workers receive adequate paid \nfamily leave for a new child or \na close relative with a serious \nhealth condition.",
+            "score": 3
+          },
+          {
+            "label": "Workers receive minimal paid \nfamily leave for a new child or a \nclose relative with a serious health \ncondition.",
+            "score": 2
+          },
+          {
+            "label": "Workers receive no paid family leave \nbut may take unpaid family leave \nwithout negative consequences.",
+            "score": 1
+          },
+          {
+            "label": "Workers are punished for taking \nunpaid family leave.",
+            "score": 0
+          }
+        ]
+      },
+      {
+        "title": "Fair Workweek",
+        "options": [
+          {
+            "label": "Employer provides work schedule (7 calendar days worth of shifts) 14 days in advance w/dates, start/stop times for each shift; employees can refuse \"clopening\" shifts or last-minute/on-call shift requests;",
+            "score": 3
+          },
+          {
+            "label": "detailed work schedule available more than a week in advance; employees can refuse \"clopening\" and on-call shifts",
+            "score": 2
+          },
+          {
+            "label": "schedule available more than a week in advance",
+            "score": 1
+          },
+          {
+            "label": "no scheduling predictability",
+            "score": 0
+          }
+        ]
+      }
+    ]
+  }
+]
