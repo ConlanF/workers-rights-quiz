@@ -12,7 +12,6 @@ function startQuiz() {
 
 <template>
   <div class="card">
-    <h1>Workplace Practices Quiz</h1>
     <p>
       This quiz helps you evaluate your workplace practices in categories such as compensation, safety, and fairness. No data is collected.
     </p>

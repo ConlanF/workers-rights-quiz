@@ -31,10 +31,16 @@ function goToNextSection() {
   sectionIndex.value++
   if (sectionIndex.value < rubric.value.length) {
     currentSection.value = rubric.value[sectionIndex.value]
+    scrollToTop()
   } else {
     localStorage.setItem('workerQuizAnswers', JSON.stringify(answers.value))
     router.push('/results')
   }
+}
+
+function resetQuiz() {
+  localStorage.removeItem('workerQuizAnswers')
+  router.push('/')
 }
 
 // Called when user selects an option
@@ -49,7 +55,13 @@ function goToPreviousSection() {
   if (sectionIndex.value > 0) {
     sectionIndex.value--
     currentSection.value = rubric.value[sectionIndex.value]
+    scrollToTop()
   }
+}
+
+// Scroll to top of the page
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' })
 }
 </script>
 
@@ -78,6 +90,7 @@ function goToPreviousSection() {
 
     <div class="nav-buttons">
       <button @click="goToPreviousSection" :disabled="sectionIndex === 0">Back</button>
+      <button @click="resetQuiz">Restart</button>
       <button @click="goToNextSection">Next Section</button>
     </div>
   </div>
